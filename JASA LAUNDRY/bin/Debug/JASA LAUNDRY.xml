@@ -1,0 +1,336 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+JASALAUNDRY
+</name>
+</assembly>
+<members>
+<member name="P:JASA_LAUNDRY.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:JASA_LAUNDRY.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_barangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_detail_pemakaian_barangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_detail_pembelian_barangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_detail_transaksiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_jenis_laundryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_karyawanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_konsumenDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_pemakaian_barangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_pembelian_barangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_supplierDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_transaksiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cari_pengambilanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cetak_penerimaanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cetak_pengambilanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cetak_pembelian_barangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.cache_pembelianDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.cache_pemakaianDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_tampil_jenis_laundryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_barangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_detail_pemakaian_barangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_detail_pembelian_barangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_detail_transaksiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_jenis_laundryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_karyawanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_konsumenRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_pemakaian_barangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_pembelian_barangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_supplierRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_transaksiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cari_pengambilanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cetak_penerimaanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cetak_pengambilanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cetak_pembelian_barangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.cache_pembelianRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.cache_pemakaianRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_tampil_jenis_laundryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_barangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_detail_pemakaian_barangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_detail_pembelian_barangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_detail_transaksiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_jenis_laundryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_karyawanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_konsumenRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_pemakaian_barangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_pembelian_barangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_supplierRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_transaksiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cari_pengambilanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cetak_penerimaanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cetak_pengambilanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.query_cetak_pembelian_barangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.cache_pembelianRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.cache_pemakaianRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet.tb_tampil_jenis_laundryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_barangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_detail_pemakaian_barangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_detail_pembelian_barangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_detail_transaksiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_jenis_laundryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_karyawanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_konsumenTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_pemakaian_barangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_pembelian_barangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_supplierTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.tb_transaksiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.query_cari_pengambilanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.query_cetak_penerimaanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.query_cetak_pengambilanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.query_cetak_pembelian_barangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:JASA_LAUNDRY.db_laundryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(JASA_LAUNDRY.db_laundryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:JASA_LAUNDRY.db_laundryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(JASA_LAUNDRY.db_laundryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:JASA_LAUNDRY.db_laundryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(JASA_LAUNDRY.db_laundryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:JASA_LAUNDRY.db_laundryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:JASA_LAUNDRY.db_laundryDataSetTableAdapters.TableAdapterManager.UpdateAll(JASA_LAUNDRY.db_laundryDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:JASA_LAUNDRY.db_laundryDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

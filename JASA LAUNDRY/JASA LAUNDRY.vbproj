@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE794F93-45B9-4FDD-AE01-A84291C88A22}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>JASA_LAUNDRY.My.MyApplication</StartupObject>
+    <RootNamespace>JASA_LAUNDRY</RootNamespace>
+    <AssemblyName>JASA LAUNDRY</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>JASA LAUNDRY.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>JASA LAUNDRY.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="db_laundryDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_laundryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="f_cetak_lap_transaksi_bulanan.Designer.vb">
+      <DependentUpon>f_cetak_lap_transaksi_bulanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_cetak_lap_transaksi_bulanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_cetak_penerimaan.Designer.vb">
+      <DependentUpon>f_cetak_penerimaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_cetak_penerimaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_cetak_pengambilan.Designer.vb">
+      <DependentUpon>f_cetak_pengambilan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_cetak_pengambilan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_data_jenis_laundry.Designer.vb">
+      <DependentUpon>f_data_jenis_laundry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_data_jenis_laundry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_data_karyawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_data_karyawan.Designer.vb">
+      <DependentUpon>f_data_karyawan.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_data_supplier.Designer.vb">
+      <DependentUpon>f_data_supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_data_supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_lap_transaksi_bulanan.Designer.vb">
+      <DependentUpon>f_lap_transaksi_bulanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_lap_transaksi_bulanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_login.Designer.vb">
+      <DependentUpon>f_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_menu_utama.Designer.vb">
+      <DependentUpon>f_menu_utama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_menu_utama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_pemakaian_barang.Designer.vb">
+      <DependentUpon>f_pemakaian_barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_pemakaian_barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_pembelian_barang.Designer.vb">
+      <DependentUpon>f_pembelian_barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_pembelian_barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_transaksi_penerimaan.Designer.vb">
+      <DependentUpon>f_transaksi_penerimaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_transaksi_penerimaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_transaksi_pengambilan.Designer.vb">
+      <DependentUpon>f_transaksi_pengambilan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_transaksi_pengambilan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_user.Designer.vb">
+      <DependentUpon>f_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="f_user.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="properties.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="f_cetak_lap_transaksi_bulanan.resx">
+      <DependentUpon>f_cetak_lap_transaksi_bulanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_cetak_penerimaan.resx">
+      <DependentUpon>f_cetak_penerimaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_cetak_pengambilan.resx">
+      <DependentUpon>f_cetak_pengambilan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_data_jenis_laundry.resx">
+      <DependentUpon>f_data_jenis_laundry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_data_karyawan.resx">
+      <DependentUpon>f_data_karyawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_data_supplier.resx">
+      <DependentUpon>f_data_supplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_lap_transaksi_bulanan.resx">
+      <DependentUpon>f_lap_transaksi_bulanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_login.resx">
+      <DependentUpon>f_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_menu_utama.resx">
+      <DependentUpon>f_menu_utama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_pemakaian_barang.resx">
+      <DependentUpon>f_pemakaian_barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_pembelian_barang.resx">
+      <DependentUpon>f_pembelian_barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_transaksi_penerimaan.resx">
+      <DependentUpon>f_transaksi_penerimaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_transaksi_pengambilan.resx">
+      <DependentUpon>f_transaksi_pengambilan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_user.resx">
+      <DependentUpon>f_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lap_transaksi_bulanan.rdlc" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_struk_penerimaan.rdlc" />
+    <EmbeddedResource Include="report_struk_pengambilan.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="db_laundryDataSet.xsc">
+      <DependentUpon>db_laundryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_laundryDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_laundryDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_laundryDataSet.xss">
+      <DependentUpon>db_laundryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
